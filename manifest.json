@@ -10,8 +10,8 @@
       "default_popup": "window.html"
     },
     "background": {
-      "scripts": ["background.js"]
-    },
+    "service_worker": "background.js"
+     },
     "icons": {
       "128": "icon.png",
       "48": "icon2.png"
