@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+  
+    "name": " Auto Paste",
+    "description": "This extension automatically paste data.",
+    "version": "1.0",
+  
+    "action": {
+      "default_icon": "icon.png",
+      "default_popup": "window.html"
+    },
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "icons": {
+      "128": "icon.png",
+      "48": "icon2.png"
+    },
+    "permissions":[
+      "tabs"
+    ],
+    "host_permissions":[
+      "*://docx.google.com/*"
+    ]
+  }
